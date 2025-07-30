@@ -1,7 +1,7 @@
 {
     "LLM": {
         "GPT": {
-            "api_key": "TODO put your token",
+            "api_key": "TODO ADD YOUR TOKEN",
             "api_url": "https://api.openai.com/v1/chat/completions",
             "model": "gpt-4.1-mini"
         }        
