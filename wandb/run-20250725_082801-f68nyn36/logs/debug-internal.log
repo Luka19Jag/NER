@@ -1,0 +1,20 @@
+{"time":"2025-07-25T08:28:03.0918062+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-25T08:28:04.112927+02:00","level":"INFO","msg":"stream: created new stream","id":"f68nyn36"}
+{"time":"2025-07-25T08:28:04.1135198+02:00","level":"INFO","msg":"stream: started","id":"f68nyn36"}
+{"time":"2025-07-25T08:28:04.1135198+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"f68nyn36"}
+{"time":"2025-07-25T08:28:04.1135198+02:00","level":"INFO","msg":"sender: started","stream_id":"f68nyn36"}
+{"time":"2025-07-25T08:28:04.1135198+02:00","level":"INFO","msg":"handler: started","stream_id":"f68nyn36"}
+{"time":"2025-07-25T08:43:43.4923186+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/luksivanovic19/wikigold_ner/f68nyn36/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-25T08:43:45.7808873+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/luksivanovic19/wikigold_ner/f68nyn36/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-25T08:43:47.454133+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-25T08:46:42.1575256+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/luksivanovic19/wikigold_ner/f68nyn36/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-25T08:46:42.1575256+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-25T08:46:47.0622854+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-25T09:03:56.8727197+02:00","level":"WARN","msg":"sender: taking a long time","seconds":1209.4185867,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"70jv3l9p6wgw\" connection_id:\"1(127.0.0.1:55352)\")"}
+{"time":"2025-07-25T09:03:58.3321014+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":1210.8779684,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"70jv3l9p6wgw\" connection_id:\"1(127.0.0.1:55352)\")"}
+{"time":"2025-07-25T09:15:26.1183891+02:00","level":"INFO","msg":"stream: closing","id":"f68nyn36"}
+{"time":"2025-07-25T09:15:27.3173797+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-25T09:15:27.8127827+02:00","level":"INFO","msg":"handler: closed","stream_id":"f68nyn36"}
+{"time":"2025-07-25T09:15:27.8127827+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"f68nyn36"}
+{"time":"2025-07-25T09:15:27.8127827+02:00","level":"INFO","msg":"sender: closed","stream_id":"f68nyn36"}
+{"time":"2025-07-25T09:15:27.8132878+02:00","level":"INFO","msg":"stream: closed","id":"f68nyn36"}

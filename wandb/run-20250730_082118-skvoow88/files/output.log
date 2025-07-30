@@ -1,0 +1,117 @@
+C:\Users\luksi\OneDrive\Desktop\Reputeo\custom_ner_base_trainer.py:153: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+  0%|                                                                                                       | 0/960 [00:00<?, ?it/s]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 10%|█████████▏                                                                                  | 96/960 [43:14<1:27:29,  6.08s/it]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+{'loss': 0.6482, 'grad_norm': 1.2947889566421509, 'learning_rate': 1.897916666666667e-05, 'epoch': 0.52}
+  warnings.warn(warn_msg)                                                                                                           
+{'eval_loss': 0.15245965123176575, 'eval_precision': 0.6656495493167094, 'eval_recall': 0.7838345864661654, 'eval_f1': 0.7187121679331159, 'eval_accuracy': 0.9515039901780233, 'eval_report': {'LOC': {'precision': 0.7142857142857143, 'recall': 0.8333333333333334, 'f1-score': 0.7692307692307692, 'support': 156}, 'MISC': {'precision': 0.4863013698630137, 'recall': 0.6761904761904762, 'f1-score': 0.5657370517928287, 'support': 105}, 'ORG': {'precision': 0.5527950310559007, 'recall': 0.664179104477612, 'f1-score': 0.6033898305084746, 'support': 134}, 'PER': {'precision': 0.8581081081081081, 'recall': 0.927007299270073, 'f1-score': 0.8912280701754386, 'support': 137}, 'micro avg': {'precision': 0.6546310832025117, 'recall': 0.7838345864661654, 'f1-score': 0.7134302822925576, 'support': 532}, 'macro avg': {'precision': 0.6528725558281843, 'recall': 0.7751775533178736, 'f1-score': 0.7073964304268777, 'support': 532}, 'weighted avg': {'precision': 0.6656495493167094, 'recall': 0.7838345864661654, 'f1-score': 0.7187121679331159, 'support': 532}}, 'eval_runtime': 21.1216, 'eval_samples_per_second': 13.067, 'eval_steps_per_second': 0.852, 'epoch': 1.0}
+ 20%|██████████████████▏                                                                        | 192/960 [56:07<1:23:01,  6.49s/it]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+{'loss': 0.173, 'grad_norm': 2.283583879470825, 'learning_rate': 1.7937500000000002e-05, 'epoch': 1.04}
+{'loss': 0.1003, 'grad_norm': 1.5486550331115723, 'learning_rate': 1.6895833333333335e-05, 'epoch': 1.56}
+  warnings.warn(warn_msg)                                                                                                           
+{'eval_loss': 0.1339571326971054, 'eval_precision': 0.7518601422862797, 'eval_recall': 0.8458646616541353, 'eval_f1': 0.7954885006203647, 'eval_accuracy': 0.9602516881522406, 'eval_report': {'LOC': {'precision': 0.7684210526315789, 'recall': 0.9358974358974359, 'f1-score': 0.8439306358381503, 'support': 156}, 'MISC': {'precision': 0.6410256410256411, 'recall': 0.7142857142857143, 'f1-score': 0.6756756756756757, 'support': 105}, 'ORG': {'precision': 0.6917808219178082, 'recall': 0.753731343283582, 'f1-score': 0.7214285714285713, 'support': 134}, 'PER': {'precision': 0.8767123287671232, 'recall': 0.9343065693430657, 'f1-score': 0.9045936395759717, 'support': 137}, 'micro avg': {'precision': 0.7512520868113522, 'recall': 0.8458646616541353, 'f1-score': 0.7957559681697612, 'support': 532}, 'macro avg': {'precision': 0.7444849610855379, 'recall': 0.8345552657024495, 'f1-score': 0.7864071306295923, 'support': 532}, 'weighted avg': {'precision': 0.7518601422862797, 'recall': 0.8458646616541353, 'f1-score': 0.7954885006203647, 'support': 532}}, 'eval_runtime': 23.205, 'eval_samples_per_second': 11.894, 'eval_steps_per_second': 0.776, 'epoch': 2.0}
+ 30%|██████████████████████████▋                                                              | 288/960 [1:11:28<1:38:42,  8.81s/it]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+{'loss': 0.0802, 'grad_norm': 0.781822919845581, 'learning_rate': 1.5854166666666668e-05, 'epoch': 2.08}
+{'loss': 0.0491, 'grad_norm': 1.6147242784500122, 'learning_rate': 1.4812500000000001e-05, 'epoch': 2.6}
+  warnings.warn(warn_msg)                                                                                                           
+{'eval_loss': 0.11421668529510498, 'eval_precision': 0.8090732303107999, 'eval_recall': 0.8740601503759399, 'eval_f1': 0.8394334912672751, 'eval_accuracy': 0.9688459177409454, 'eval_report': {'LOC': {'precision': 0.875, 'recall': 0.8974358974358975, 'f1-score': 0.8860759493670887, 'support': 156}, 'MISC': {'precision': 0.6935483870967742, 'recall': 0.819047619047619, 'f1-score': 0.7510917030567685, 'support': 105}, 'ORG': {'precision': 0.7225806451612903, 'recall': 0.835820895522388, 'f1-score': 0.7750865051903114, 'support': 134}, 'PER': {'precision': 0.9071428571428571, 'recall': 0.927007299270073, 'f1-score': 0.9169675090252708, 'support': 137}, 'micro avg': {'precision': 0.8031088082901554, 'recall': 0.8740601503759399, 'f1-score': 0.837083708370837, 'support': 532}, 'macro avg': {'precision': 0.7995679723502304, 'recall': 0.8698279278189943, 'f1-score': 0.8323054166598599, 'support': 532}, 'weighted avg': {'precision': 0.8090732303107999, 'recall': 0.8740601503759399, 'f1-score': 0.8394334912672751, 'support': 532}}, 'eval_runtime': 27.5807, 'eval_samples_per_second': 10.007, 'eval_steps_per_second': 0.653, 'epoch': 3.0}
+ 40%|████████████████████████████████████▍                                                      | 384/960 [1:26:57<59:48,  6.23s/it]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+{'loss': 0.0425, 'grad_norm': 0.6135820150375366, 'learning_rate': 1.3770833333333335e-05, 'epoch': 3.12}
+{'loss': 0.0298, 'grad_norm': 0.57147616147995, 'learning_rate': 1.2729166666666668e-05, 'epoch': 3.65}
+  warnings.warn(warn_msg)                                                                                                           
+{'eval_loss': 0.11025966703891754, 'eval_precision': 0.8357527812572434, 'eval_recall': 0.8834586466165414, 'eval_f1': 0.8586713785864888, 'eval_accuracy': 0.9742173112338858, 'eval_report': {'LOC': {'precision': 0.8780487804878049, 'recall': 0.9230769230769231, 'f1-score': 0.9, 'support': 156}, 'MISC': {'precision': 0.7264957264957265, 'recall': 0.8095238095238095, 'f1-score': 0.7657657657657657, 'support': 105}, 'ORG': {'precision': 0.7931034482758621, 'recall': 0.8582089552238806, 'f1-score': 0.8243727598566308, 'support': 134}, 'PER': {'precision': 0.9130434782608695, 'recall': 0.9197080291970803, 'f1-score': 0.9163636363636363, 'support': 137}, 'micro avg': {'precision': 0.8333333333333334, 'recall': 0.8834586466165414, 'f1-score': 0.8576642335766423, 'support': 532}, 'macro avg': {'precision': 0.8276728583800658, 'recall': 0.8776294292554234, 'f1-score': 0.8516255404965083, 'support': 532}, 'weighted avg': {'precision': 0.8357527812572434, 'recall': 0.8834586466165414, 'f1-score': 0.8586713785864888, 'support': 532}}, 'eval_runtime': 21.8966, 'eval_samples_per_second': 12.605, 'eval_steps_per_second': 0.822, 'epoch': 4.0}
+ 50%|█████████████████████████████████████████████▌                                             | 480/960 [1:40:25<58:44,  7.34s/it]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+{'loss': 0.0238, 'grad_norm': 0.2864047884941101, 'learning_rate': 1.1687500000000001e-05, 'epoch': 4.17}
+{'loss': 0.0176, 'grad_norm': 0.47688499093055725, 'learning_rate': 1.0645833333333336e-05, 'epoch': 4.69}
+  warnings.warn(warn_msg)                                                                                                           
+{'eval_loss': 0.12315229326486588, 'eval_precision': 0.8276437878050971, 'eval_recall': 0.8834586466165414, 'eval_f1': 0.853836596018621, 'eval_accuracy': 0.9711479435236341, 'eval_report': {'LOC': {'precision': 0.8895705521472392, 'recall': 0.9294871794871795, 'f1-score': 0.9090909090909092, 'support': 156}, 'MISC': {'precision': 0.6875, 'recall': 0.8380952380952381, 'f1-score': 0.7553648068669528, 'support': 105}, 'ORG': {'precision': 0.8043478260869565, 'recall': 0.8283582089552238, 'f1-score': 0.8161764705882353, 'support': 134}, 'PER': {'precision': 0.8873239436619719, 'recall': 0.9197080291970803, 'f1-score': 0.9032258064516128, 'support': 137}, 'micro avg': {'precision': 0.8231173380035026, 'recall': 0.8834586466165414, 'f1-score': 0.8522212148685403, 'support': 532}, 'macro avg': {'precision': 0.817185580474042, 'recall': 0.8789121639336804, 'f1-score': 0.8459644982494277, 'support': 532}, 'weighted avg': {'precision': 0.8276437878050971, 'recall': 0.8834586466165414, 'f1-score': 0.853836596018621, 'support': 532}}, 'eval_runtime': 26.3185, 'eval_samples_per_second': 10.487, 'eval_steps_per_second': 0.684, 'epoch': 5.0}
+ 60%|█████████████████████████████████████████████████████▍                                   | 576/960 [1:54:22<1:16:15, 11.91s/it]
+{'loss': 0.0177, 'grad_norm': 0.096947081387043, 'learning_rate': 9.604166666666669e-06, 'epoch': 5.21}
+{'loss': 0.01, 'grad_norm': 1.0826494693756104, 'learning_rate': 8.5625e-06, 'epoch': 5.73}
+Some weights of the model checkpoint at dslim/bert-base-NER were not used when initializing BertForTokenClassification: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight']
+{'eval_loss': 0.1272537112236023, 'eval_precision': 0.8185111629679468, 'eval_recall': 0.8890977443609023, 'eval_f1': 0.8517057805894727, 'eval_accuracy': 0.9711479435236341, 'eval_report': {'LOC': {'precision': 0.8682634730538922, 'recall': 0.9294871794871795, 'f1-score': 0.8978328173374613, 'support': 156}, 'MISC': {'precision': 0.7322834645669292, 'recall': 0.8857142857142857, 'f1-score': 0.8017241379310345, 'support': 105}, 'ORG': {'precision': 0.7586206896551724, 'recall': 0.8208955223880597, 'f1-score': 0.7885304659498207, 'support': 134}, 'PER': {'precision': 0.8865248226950354, 'recall': 0.9124087591240876, 'f1-score': 0.8992805755395683, 'support': 137}, 'micro avg': {'precision': 0.8155172413793104, 'recall': 0.8890977443609023, 'f1-score': 0.8507194244604317, 'support': 532}, 'macro avg': {'precision': 0.8114231124927573, 'recall': 0.8871264366784032, 'f1-score': 0.8468419991894711, 'support': 532}, 'weighted avg': {'precision': 0.8185111629679468, 'recall': 0.8890977443609023, 'f1-score': 0.8517057805894727, 'support': 532}}, 'eval_runtime': 29.8026, 'eval_samples_per_second': 9.261, 'eval_steps_per_second': 0.604, 'epoch': 6.0}
+Early stopping: No improvement beyond min_delta: 0.01. Current score: 0.8517057805894727, Best score: 0.8586713785864888
+{'train_runtime': 6862.5284, 'train_samples_per_second': 2.231, 'train_steps_per_second': 0.14, 'train_loss': 0.10442705938799514, 'epoch': 6.0}
+- This IS expected if you are initializing BertForTokenClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForTokenClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at dslim/bert-base-NER and are newly initialized because the shapes did not match:
+- classifier.bias: found shape torch.Size([9]) in the checkpoint and torch.Size([5]) in the model instantiated
+- classifier.weight: found shape torch.Size([9, 768]) in the checkpoint and torch.Size([5, 768]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100%|█████████████████████████████████████████████████████████████████████████████| 1531/1531 [00:00<00:00, 4232.38 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████████| 276/276 [00:00<00:00, 5302.82 examples/s]
+[34m[1mwandb[0m: wandb.init() called while a run is active and reinit is set to 'default', so returning the previous run.
+C:\Users\luksi\OneDrive\Desktop\Reputeo\custom_ner_base_trainer.py:153: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+  0%|                                                                                                       | 0/960 [00:00<?, ?it/s]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+  1%|▍                                                                                            | 5/960 [00:50<2:37:36,  9.90s/it]Traceback (most recent call last):
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\custom_ner_trainer.py", line 62, in <module>
+    TrainCustomNERModel.train_multiple_models(dic_models, label_to_id_path, id_to_label_path,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                    train_sentences_path, train_labels_path,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                    val_sentences_path, val_labels_path,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                    train_synthetic_sentences_path, train_sytnetic_labels_path,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                    version)
+                                    ^^^^^^^^
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\custom_ner_trainer.py", line 37, in train_multiple_models
+    trainer.train(train_ds, val_ds, output_dir, version)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\custom_ner_base_trainer.py", line 164, in train
+    trainer.train()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 2206, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 3797, in training_step
+    self.accelerator.backward(loss, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\accelerate\accelerator.py", line 2578, in backward
+    loss.backward(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\_tensor.py", line 648, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\autograd\__init__.py", line 353, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\autograd\graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+KeyboardInterrupt
+Exception ignored in atexit callback <function _start_and_connect_service.<locals>.teardown_atexit at 0x00000137924FB880>:
+Traceback (most recent call last):
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\wandb\sdk\lib\service\service_connection.py", line 54, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\wandb\sdk\lib\service\service_connection.py", line 182, in teardown
+    self._router.join()
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\wandb\sdk\interface\router.py", line 75, in join
+    self._thread.join()
+  File "C:\Program Files\Python313\Lib\threading.py", line 1094, in join
+    self._handle.join(timeout)
+KeyboardInterrupt:
+[0m

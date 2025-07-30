@@ -1,0 +1,52 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            7vtmmksqhr3d3htue7n5jrvwmgvmj8ic:
+                codePath: ner_trainer.py
+                codePathLocal: ner_trainer.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "509722226688"
+                        used: "137607286784"
+                email: luksivanovic19@gmail.com
+                executable: C:\Program Files\Python313\python.exe
+                host: LukaIvanovic
+                memory:
+                    total: "33998262272"
+                os: Windows-11-10.0.26100-SP0
+                program: C:\Users\luksi\OneDrive\Desktop\Reputeo\ner_trainer.py
+                python: CPython 3.13.5
+                root: C:\Users\luksi\OneDrive\Desktop\Reputeo
+                startedAt: "2025-07-25T09:20:04.093920Z"
+                writerId: 7vtmmksqhr3d3htue7n5jrvwmgvmj8ic
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "3":
+                - 13
+            "4": 3.13.5
+            "5": 0.21.0
+            "6": 4.53.3
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64

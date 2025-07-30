@@ -1,0 +1,48 @@
+{"time":"2025-07-25T08:02:52.5792367+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-25T08:02:53.6985406+02:00","level":"INFO","msg":"stream: created new stream","id":"2ojqptd8"}
+{"time":"2025-07-25T08:02:53.6985406+02:00","level":"INFO","msg":"stream: started","id":"2ojqptd8"}
+{"time":"2025-07-25T08:02:53.6985406+02:00","level":"INFO","msg":"sender: started","stream_id":"2ojqptd8"}
+{"time":"2025-07-25T08:02:53.6985406+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"2ojqptd8"}
+{"time":"2025-07-25T08:02:53.6985406+02:00","level":"INFO","msg":"handler: started","stream_id":"2ojqptd8"}
+{"time":"2025-07-25T08:13:54.0486476+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:14:09.0483505+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:14:24.0485622+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:14:25.7954304+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/luksivanovic19/wikigold_ner/2ojqptd8/file_stream"}
+{"time":"2025-07-25T08:14:25.7962213+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/luksivanovic19/wikigold_ner/2ojqptd8/file_stream: {\"error\":\"run wikigold_ner/2ojqptd8 not found while streaming file\"}"}
+{"time":"2025-07-25T08:14:39.0484951+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:14:54.0485929+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:15:09.0485636+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:15:24.0485225+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:15:39.0486411+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:15:54.0485858+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:16:09.0490283+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:16:24.0486326+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:16:39.0482633+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:16:54.0482377+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:17:09.0488886+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:17:24.0486139+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:17:39.0482708+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:17:54.0483543+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:18:09.0486002+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:18:24.0488314+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:18:39.0483067+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:18:54.0482587+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:19:09.0485916+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:19:24.049206+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:19:39.0484159+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:19:54.0487826+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:20:09.0489017+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:20:24.0485539+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:20:39.0484082+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:20:54.0486483+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:21:09.0486077+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:21:24.048259+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:21:39.0488096+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:21:54.0484034+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:22:09.0484457+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:22:24.0486143+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:22:39.0485512+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:22:54.0485678+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:23:09.0485259+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:23:24.0483205+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-25T08:23:39.0486902+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}

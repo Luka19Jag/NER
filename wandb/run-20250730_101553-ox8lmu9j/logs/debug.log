@@ -1,0 +1,7 @@
+2025-07-30 10:15:53,221 INFO    MainThread:3080 [wandb_init.py:setup_run_log_directory():703] Logging user logs to C:\Users\luksi\OneDrive\Desktop\Reputeo\wandb\run-20250730_101553-ox8lmu9j\logs\debug.log
+2025-07-30 10:15:53,222 INFO    MainThread:3080 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to C:\Users\luksi\OneDrive\Desktop\Reputeo\wandb\run-20250730_101553-ox8lmu9j\logs\debug-internal.log
+2025-07-30 10:15:53,222 INFO    MainThread:3080 [wandb_init.py:init():830] calling init triggers
+2025-07-30 10:15:53,222 INFO    MainThread:3080 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-07-30 10:15:53,618 INFO    MainThread:3080 [wandb_config.py:__setitem__():154] [no run ID] config set model/num_parameters = 107723525 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000137938DF4D0>>
+2025-07-30 10:16:52,309 INFO    MsgRouterThr:3080 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

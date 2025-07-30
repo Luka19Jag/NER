@@ -1,0 +1,18 @@
+C:\Users\luksi\OneDrive\Desktop\Reputeo\base_ner_trainer.py:156: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Traceback (most recent call last):
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\ner_trainer.py", line 44, in <module>
+    TrainNERModel.train(trainer_bert_base_english_ner, train_ds_v1, val_ds_v1, version="v1")
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\ner_trainer.py", line 17, in train
+    trainer.train(train_ds, val_ds, output_dir, version, epochs, batch_size, seed)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\base_ner_trainer.py", line 156, in train
+    trainer = Trainer(
+        model=self.model,
+    ...<7 lines>...
+        allbacks=[CustomEarlyStoppingCallback(patience=0, min_delta=0.05)]
+    )
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\utils\deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+TypeError: Trainer.__init__() got an unexpected keyword argument 'allbacks'. Did you mean 'callbacks'?

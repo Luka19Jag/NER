@@ -1,0 +1,48 @@
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100%|█████████████████████████████████████████████████████████████████████████████| 1288/1288 [00:00<00:00, 3055.81 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████████| 276/276 [00:00<00:00, 3457.84 examples/s]
+C:\Users\luksi\OneDrive\Desktop\Reputeo\base_ner_trainer.py:114: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+  0%|                                                                                                       | 0/810 [00:00<?, ?it/s]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 10%|█████████▏                                                                                  | 81/810 [46:03<1:44:08,  8.57s/it]Traceback (most recent call last):
+{'loss': 0.6269, 'grad_norm': 1.805040955543518, 'learning_rate': 1.8790123456790124e-05, 'epoch': 0.62}
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\ner_trainer.py", line 42, in <module>███████████████| 18/18 [00:30<00:00,  1.45s/it]
+    TrainNERModel.train(trainer_bert_base, train_ds_v1, val_ds_v1, version="v1")
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\ner_trainer.py", line 17, in train
+    trainer.train(train_ds, val_ds, output_dir, version, epochs, batch_size, seed)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\base_ner_trainer.py", line 125, in train
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 2206, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 2657, in _inner_training_loop
+    self._maybe_log_save_evaluate(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval, start_time, learning_rate=learning_rate
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 3096, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 3045, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 4199, in evaluate
+    output = eval_loop(
+        eval_dataloader,
+    ...<5 lines>...
+        metric_key_prefix=metric_key_prefix,
+    )
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 4489, in evaluation_loop
+    metrics = self.compute_metrics(
+        EvalPrediction(predictions=all_preds, label_ids=all_labels, **eval_set_kwargs)
+    )
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\base_ner_trainer.py", line 71, in compute_metrics
+    [self.id_to_label[p] for (p, l) in zip(pred, label) if l != -100]
+                ^^^^^^^^^^^^^^^^^^^
+KeyError: np.int64(4)

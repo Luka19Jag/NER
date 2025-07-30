@@ -1,0 +1,57 @@
+C:\Users\luksi\OneDrive\Desktop\Reputeo\base_ner_trainer.py:115: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+  0%|                                                                                                       | 0/810 [00:00<?, ?it/s]C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\torch\utils\data\dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+ 10%|█████████▏                                                                                  | 81/810 [11:46<1:34:29,  7.78s/it]Traceback (most recent call last):
+{'loss': 0.6289, 'grad_norm': 1.9682408571243286, 'learning_rate': 1.8790123456790124e-05, 'epoch': 0.62}
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\ner_trainer.py", line 42, in <module>███████████████| 18/18 [00:28<00:00,  1.40s/it]
+    TrainNERModel.train(trainer_bert_base, train_ds_v1, val_ds_v1, version="v1")
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\ner_trainer.py", line 17, in train
+    trainer.train(train_ds, val_ds, output_dir, version, epochs, batch_size, seed)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\base_ner_trainer.py", line 126, in train
+    trainer.train()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 2206, in train
+    return inner_training_loop(
+        args=args,
+    ...<2 lines>...
+        ignore_keys_for_eval=ignore_keys_for_eval,
+    )
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 2657, in _inner_training_loop
+    self._maybe_log_save_evaluate(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval, start_time, learning_rate=learning_rate
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 3096, in _maybe_log_save_evaluate
+    metrics = self._evaluate(trial, ignore_keys_for_eval)
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 3045, in _evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 4199, in evaluate
+    output = eval_loop(
+        eval_dataloader,
+    ...<5 lines>...
+        metric_key_prefix=metric_key_prefix,
+    )
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\transformers\trainer.py", line 4489, in evaluation_loop
+    metrics = self.compute_metrics(
+        EvalPrediction(predictions=all_preds, label_ids=all_labels, **eval_set_kwargs)
+    )
+  File "C:\Users\luksi\OneDrive\Desktop\Reputeo\base_ner_trainer.py", line 83, in compute_metrics
+    "accuracy": accuracy_score(true_labels, true_predictions),
+                ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\sklearn\metrics\_classification.py", line 359, in accuracy_score
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+                             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\sklearn\metrics\_classification.py", line 98, in _check_targets
+    type_true = type_of_target(y_true, input_name="y_true")
+  File "C:\Users\luksi\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\multiclass.py", line 374, in type_of_target
+    raise ValueError(
+    ...<5 lines>...
+    )
+ValueError: You appear to be using a legacy multi-label data representation. Sequence of sequences are no longer supported; use a binary array or sparse matrix instead - the MultiLabelBinarizer transformer can convert to this format.

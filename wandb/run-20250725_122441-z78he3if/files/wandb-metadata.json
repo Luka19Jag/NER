@@ -1,0 +1,24 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.13.5",
+  "startedAt": "2025-07-25T10:24:41.136557Z",
+  "program": "C:\\Users\\luksi\\OneDrive\\Desktop\\Reputeo\\ner_trainer.py",
+  "codePath": "ner_trainer.py",
+  "codePathLocal": "ner_trainer.py",
+  "email": "luksivanovic19@gmail.com",
+  "root": "C:\\Users\\luksi\\OneDrive\\Desktop\\Reputeo",
+  "host": "LukaIvanovic",
+  "executable": "C:\\Program Files\\Python313\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "509722226688",
+      "used": "137638379520"
+    }
+  },
+  "memory": {
+    "total": "33998262272"
+  },
+  "writerId": "blmutf6u6snoduo67g3iiy5elu23dnfc"
+}
